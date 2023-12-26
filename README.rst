@@ -1,44 +1,43 @@
 Perfect Python Project Template
 ===============================
 
-This project template creates the basic structure for a Python project.
-The article `How to Set up a Perfect Python Project <https://blog.pronus.io/en/posts/python/how-to-set-up-a-perfect-python-project/>`_ describes all the design decisions used here.
+Este modelo de projeto cria a estrutura básica para um projeto Python. O artigo `Como configurar um projeto Python perfeito <https://blog.pronus.io/en/posts/python/how-to-set-up-a-perfect-python-project/>`_ descreve todas as decisões de design usadas aqui.
 
 
-Features
+Características
 --------
 
-* Python 3.10+ (configurable)
-* Poetry_ based dependency management
-* Development tasks registered in a ``Makefile`` for easy access and management
-* Custom Mercurial/Git hooks for ``pre-commit`` and ``pre-push`` events
-* Linting based on ruff_, blue_, mypy_ and others
-* Tests based on pytest_
+* Python 3.10+ (configurável)
+* Gerenciamento de dependência baseado em poesia
+* Tarefas de desenvolvimento registradas em um ``Makefile`` para fácil acesso e gerenciamento
+* Ganchos Mercurial/Git personalizados para eventos ``pre-commit`` e ``pre-push``
+* Linting baseado em ruff_, blue_, mypy_ e outros
+* Testes baseados em pytest_
 
 
-Instructions
+Instruções
 ============
 
-To instantiate the template into a new project, you'll need cookiecutter_.
-The best way to use it just once is through pipx_:
+Para instanciar o modelo em um novo projeto, você precisará do cookiecutter_.
+A melhor maneira de usá-lo apenas uma vez é através do pipx_:
 
 .. code:: console
 
     $ pipx run cookiecutter gh:andredias/perfect_python_project
 
-If you prefer, use can install it throught `pip` instead:
+Se preferir, use pode instalá-lo através do `pip`:
 
 .. code:: console
 
     $ pip install --user cookiecutter
 
-Next, run the following command:
+Em seguida, execute o seguinte comando:
 
 .. code:: console
 
     $ cookiecutter gh:andredias/perfect_python_project
 
-Answer a few questions:
+Responda algumas perguntas:
 
 .. code:: text
 
@@ -55,7 +54,7 @@ Answer a few questions:
     github_respository_url []:
 
 
-That's it!
+É isso!
 
 
 .. _blue: https://pypi.org/project/blue/
