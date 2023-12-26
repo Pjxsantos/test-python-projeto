@@ -1,11 +1,11 @@
-Perfect Python Project Template
-===============================
+Modelo de projeto Python perfeito
+=================================
 
 Este modelo de projeto cria a estrutura básica para um projeto Python. O artigo `Como configurar um projeto Python perfeito <https://blog.pronus.io/en/posts/python/how-to-set-up-a-perfect-python-project/>`_ descreve todas as decisões de design usadas aqui.
 
 
 Características
---------
+---------------
 
 * Python 3.10+ (configurável)
 * Gerenciamento de dependência baseado em poesia
@@ -16,7 +16,7 @@ Características
 
 
 Instruções
-============
+==========
 
 Para instanciar o modelo em um novo projeto, você precisará do cookiecutter_.
 A melhor maneira de usá-lo apenas uma vez é através do pipx_:
